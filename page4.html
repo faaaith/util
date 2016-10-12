@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Faaaith</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-wrap">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Part 1</a></li>
+                    <li><a href="page2.html">Part 2</a></li>
+                    <li><a href="page3.html">Part 3</a></li>
+                    <li><a href="page4.html">Part 4</a></li>
+                    <li><a href="page5.html">Part 5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="center">
+        <h2>Part 4</h2>
+        <div class="inputArea">
+            <input type="text" class="myText" onkeyup="showHint(this.value, event)" onkeydown="move(event)">
+            <div class="prompt-wrap" style="display: none;">
+                <ul class="prompt">
+                    <li id="li-0" class="choose" style="display: none;"></li>
+                    <li id="li-1"></li>
+                    <li id="li-2"></li>
+                    <li id="li-3"></li>
+                    <li id="li-4"></li>
+                    <li id="li-5"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/page4.js"></script>
+</body>
+</html>
